@@ -25,7 +25,7 @@ def name_to_number(name):
     elif name=='scissors':
         name=4
     else:
-        print "Error"
+        print("Error")
     return name
 
     
@@ -43,7 +43,7 @@ def number_to_name(number):
     elif number==4:
         number='scissors'
     else:
-        print "Error"
+        print("Error")
     return number
     
    
@@ -52,7 +52,7 @@ import random
 def rpsls(player_choice): 
     print "\n"
     
-    print "Player chooses "+player_choice
+    print("Player chooses "+player_choice)
    
     player_number=name_to_number(player_choice)
     
@@ -60,16 +60,16 @@ def rpsls(player_choice):
     
     comp_choice=number_to_name(comp_number)
    
-    print "Computer chooses "+comp_choice
+    print("Computer chooses "+comp_choice)
    
     diff=(comp_number-player_number)%5
    
     if diff==0:
-        print "Player and computer tie!"
+        print("Player and computer tie!")
     elif diff<3:
-        print "Computer wins!"
+        print("Computer wins!")
     elif diff>=3:
-        print "Player wins!"
+        print("Player wins!")
    
 
     
