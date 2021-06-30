@@ -1,4 +1,4 @@
- Rock-paper-scissors-lizard-Spock 
+# Rock-paper-scissors-lizard-Spock 
 
 
 # The key idea of this program is to equate the strings
